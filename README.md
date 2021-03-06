@@ -1,45 +1,235 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Croatia for Digital Nomads
 
-Welcome USER_NAME,
+## Contents:
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+* [Description](#description)
+* [UX](#ux)
+* [Strategy](#strategy)
+* [Scope](#scope)
+* [Structure](#structure)
+* [Skeleton](#skeleton)
+* [Surface](#surface)
+* [Technologies Used](#technologies-used)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
+* [Acknowledgements](#acknowledgements)
 
-## Gitpod Reminders
+# Description
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+# UX
 
-A blue button should appear to click: *Make Public*,
+## Strategy
 
-Another blue button should appear to click: *Open Browser*.
+### User Stories
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+#### First time user
+  As a first time user,
+* I want to be able to  navigate through the site easily to find information and services available
 
-A blue button should appear to click: *Make Public*,
+* I want to be able to see the website clearly on my mobile device
 
-Another blue button should appear to click: *Open Browser*.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-## Updates Since The Instructional Video
+#### Returning User
+  As a returning user,
+ 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+#### Frequent User
+  As a Frequent user,
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* I want to sign up to the newsletter to get the latest news and offers/discounts
+---
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Scope 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Features
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+ 
+### Features Left to Implement
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Structure
 
---------
 
-Happy coding!
+
+
+## Skeleton
+
+### Wireframes 
+[Desktop]()
+
+
+### Differences from the original design
+
+## Surface
+
+### Design 
+
+ #### Typogroaphy 
+ 
+
+#### Colors
+  
+
+
+## Technologies Used
+
+1. [HTML](https://en.wikipedia.org/wiki/HTML#:~:text=Hypertext%20Markup%20Language%20(HTML)%20is,scripting%20languages%20such%20as%20JavaScript.)
+
+1. [CSS](https://en.wikipedia.org/wiki/CSS)
+
+1. [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Acme' font into the style.css file which is used on all pages throughout the project.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used to add icons.
+1. [jQuery:](https://jquery.com/)
+    - jQuery came with Bootstrap to make the navbar responsive.
+1. [Gitpod](https://www.gitpod.io/)
+   - Gitpod was used to create the code for the project.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the project's code after being pushed from Git.
+1. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the wireframes during the design process.
+1. [TinyPNG](https://tinypng.com/)
+    - TinyPNG was used to reduce the overall total image size
+1. [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+ - Used during the process of creating the website to help with design and debugging some issues
+
+## Bugs found while creating the website
+
+# Testing
+
+## Testing was completed in the following stages: 
+1. Test all code is working and passes through the validators without errors
+2. Test website responsiveness across various browsers and various devices to confirm that the website is fully responsive
+3. Test that all features work as intended by testing user stories
+ 
+
+### 1. Code validators
+
+[HTML validator](https://validator.w3.org/) Returned no errors
+
+
+[CSS Validator](https://jigsaw.w3.org/css-validator/) Returned no errors 
+
+
+
+### 2. Responsiveness
+
+1. Initial tests were done using Chrome Dev Tools to make sure the website was responding properly on all screen sizes from 320px upwards
+2. Then an app called [Responsively](https://responsively.app/) was used to test multiple screen sizes in one place
+   
+   Screen sizes tested:
+    - iPhone X          
+    - Pixel 2            
+    - iPad              
+    - Generic Laptop     
+    - Moto G4           
+    - Surface Duo         
+
+3. Then I tested the following actual devices:
+   - iPhone 7  
+   - iPhone 11    
+   - Xiaomi Pocophone F1
+   - Huawei P10         
+   - A1 Alpha 20+       
+   - iPad
+   - Lenovo Laptop G780
+
+  Testing was done by checking the website on each device in portrait and lanscape mode, apart from the Laptop, which was cheked only in landscape mode. Making sure that each page renders correctly
+ 
+4. The following Browsers were tested:
+   - Google Chrome
+   - Microsoft Edge
+   - Mozilla
+   - Safari
+   - Opera
+
+   Testing was done in the following manner - I opened the website url in each browser and then right clicked to open the inspector to be able to resize down 
+   to the 320px, to make sure that all pages are responsive in all screen sizes.
+
+
+### 3. User Stories
+
+1. I want to be able to  navigate through the site easily to find information and services available
+
+   Upon entering the website the user can see the navigation bar with different pages, which makes it easy to navigate the website.\
+   Each menu item, when clicked, redirects to a coresponding page.\
+   Logo, when clicked, leads to the "Home" page regardless of the page user is on.\
+   There is a line under navbar menu item, to show the user what page they are  currently on.
+
+   ![User Story](assets/images/user-story-1.jpg)
+
+
+
+2. I want to be able to see the website clearly on my mobile device
+
+   Extensive testing was done, as described in the device testing above, to make sure that the page renders well on all screen sizes but with mobile first approach in mind.
+   
+ 
+3. I want to sign up to the newsletter to get the latest news and offers/discounts
+
+   To sign up to the newsletter, the user can type their email address in the input field in the footer. It is available on all the pages.
+
+ 
+
+### Conclusion
+
+
+   
+### Bugs found during testing
+
+
+
+
+## Deployment
+
+The project was deployed to GitHub Pages using the following steps:
+
+- A local project was created in GitHub with a new repository called 'Eleventh Embodiment'
+- During the creation of the project regular commits were added which were then pushed to the GitHub website before deployment
+- The project was deployed by logging in to GitHub and locating the [GitHub Repository](https://github.com/TanYa-Go/)
+- At the top of the Repository, locate the "Settings" Button and click
+- Scroll down the Settings page until the "GitHub Pages" Section was found
+- Under "Source", click the dropdown called "None" and select "Master Branch"
+- The page will automatically refresh
+- Scroll back down through the page to locate the now published site [link](https://tanya-go.github.io/ in the "GitHub Pages" section
+- The code can be run locally through clone or download, you can do this by opening the repository, clicking on the code button and then selecting either 'clone' or 'download'
+- The Clone option provides a url, which you can use on your desktop IDE
+- The Download option provides a link to download a ZIP file which can be unzipped on your local machine
+
+
+## Credits
+
+### Code
+
+
+#### Code Institute
+
+
+#### Other Sources
+
+
+### Content
+
+
+  
+Permissions were not obtained to use this content. This content will only be used for the purpose of this project and will be replaced before the site will be in use.
+
+### Media
+
+
+
+## Acknowledgements
+
+
+
