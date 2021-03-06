@@ -59,7 +59,9 @@
 ## Skeleton
 
 ### Wireframes 
-[Desktop]()
+[Desktop](https://github.com/TanYa-Go/Croatia-for-Digital-Nomads/blob/master/assets/wireframes/Desktop.pdf)
+[DTablet]()
+[DMobile]()
 
 
 ### Differences from the original design
