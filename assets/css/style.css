@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    position: relative;
+}
+
+#title{
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+}
+
+.navbar  {
+   position: absolute;
+    z-index: 1;
+    font-size: x-large;
+    float: right;
+    margin: 0;
+
+}
+
+.navbar-brand {
+    font-size: x-large;
+    color: azure;
+    font-weight: 600;
+}
+
+.navbar-nav {
+ justify-self: end;
+}
+
+.hero-container {
+      width: 100%;
+    
+}
